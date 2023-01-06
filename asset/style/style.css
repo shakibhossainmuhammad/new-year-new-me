@@ -8,10 +8,10 @@
 
 /* header */
 header {
-  width: 100%;
-
   background-image: url('../images/banner/banner2.png');
   background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
 }
 
 .banner {
