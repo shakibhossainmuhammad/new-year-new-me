@@ -124,6 +124,8 @@ header {
     ),
     url('../images/watch.png');
   background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
   border-radius: 5px;
 }
 
@@ -138,4 +140,66 @@ header {
   background-color: #fff;
   color: #fd940a;
   margin-left: 25px;
+}
+
+/* future style */
+.future {
+  background-color: black;
+}
+.future-container {
+  display: flex;
+  margin: 0 200px;
+  padding: 130px 0;
+}
+
+.future-title {
+  font-weight: 700;
+  font-size: 45px;
+  color: #f8f8f8;
+  margin-bottom: 16px;
+}
+.future-desc,
+.future-email,
+.future-phone {
+  font-weight: 400;
+  font-size: 16px;
+  color: #fff;
+  text-align: left;
+}
+.future-email {
+  margin-top: 25px;
+}
+
+.future-phone {
+  margin: 16px 0;
+}
+
+.future-content a img {
+  margin-left: 10px;
+}
+
+.subscribe-title {
+  font-weight: 600;
+  font-size: 25px;
+  margin-bottom: 30px;
+  color: #fff;
+}
+
+.subscribe input {
+  background-color: black;
+  outline: none;
+  border: 1px solid #fff;
+  padding: 10px 12px;
+  border-radius: 5px;
+  color: #fff;
+  margin-bottom: 20px;
+}
+
+.btn-sub {
+  font-weight: 600;
+  font-size: 20px;
+  color: #fd940a;
+  padding: 15px 25px;
+  border: 0;
+  border-radius: 5px;
 }
