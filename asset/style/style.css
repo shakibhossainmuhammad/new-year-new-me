@@ -8,9 +8,8 @@
 
 /* header */
 header {
-  width: 100%;
   height: 100vh;
-  background-image: url('../images/banner/banner1.png');
+  background-image: url('../images/banner/banner2.png');
   background-repeat: no-repeat;
 }
 
@@ -20,7 +19,8 @@ header {
   /* align-items: center; */
   text-align: right;
   justify-content: center;
-  /* padding: 200px 0; */
+  align-items: center;
+  padding: 250px 0;
 }
 .banner-title {
   font-weight: 700;
@@ -45,4 +45,37 @@ header {
   border-radius: 5px;
   color: #fff;
   padding: 20px 25px;
+}
+
+/* failure section */
+.failure-section {
+  display: flex;
+  align-items: center;
+  gap: 90px;
+  margin: 200px 0;
+}
+
+.failure-title {
+  font-weight: 700;
+  font-size: 40px;
+  margin-bottom: 24px;
+}
+
+.failure-desc {
+  font-weight: 400;
+  font-size: 16px;
+  color: #444343;
+  margin-bottom: 16px;
+}
+.failure-content li {
+  font-weight: 400;
+  font-size: 16px;
+  color: #444343;
+}
+.failure-list-item {
+  list-style: none;
+}
+
+.failure-list-item li i {
+  color: #16d887;
 }
