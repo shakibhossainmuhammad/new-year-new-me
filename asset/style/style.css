@@ -54,6 +54,7 @@ header {
   align-items: center;
   gap: 90px;
   margin: 150px 200px;
+  gap: 130px;
 }
 
 .failure-title {
@@ -67,7 +68,7 @@ header {
   font-size: 16px;
   color: #444343;
   margin-bottom: 16px;
-  text-align: center;
+  text-align: left;
 }
 .failure-content li {
   font-weight: 400;
@@ -150,6 +151,7 @@ header {
   display: flex;
   margin: 0 200px;
   padding: 130px 0;
+  justify-content: space-between;
 }
 
 .future-title {
@@ -158,19 +160,26 @@ header {
   color: #f8f8f8;
   margin-bottom: 16px;
 }
-.future-desc,
-.future-email,
-.future-phone {
+.future-desc {
+  width: 485px;
   font-weight: 400;
   font-size: 16px;
   color: #fff;
   text-align: left;
 }
 .future-email {
+  font-weight: 400;
+  font-size: 16px;
+  color: #fff;
+  text-align: left;
   margin-top: 25px;
 }
 
 .future-phone {
+  font-weight: 400;
+  font-size: 16px;
+  color: #fff;
+  text-align: left;
   margin: 16px 0;
 }
 
