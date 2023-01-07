@@ -21,7 +21,8 @@ header {
   text-align: right;
   justify-content: center;
   align-items: center;
-  padding: 250px 0;
+  padding: 150px 0;
+  margin-left: 700px;
 }
 .banner-title {
   font-weight: 700;
@@ -32,7 +33,7 @@ header {
 .banner-desc {
   font-weight: 400;
   font-size: 16px;
-  color: #391919;
+  color: #000000;
   margin-bottom: 32px;
 }
 
@@ -77,6 +78,8 @@ header {
 }
 .failure-list-item {
   list-style: none;
+  position: relative;
+  right: 35px;
 }
 
 .failure-list-item li i {
