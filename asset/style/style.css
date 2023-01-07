@@ -53,8 +53,10 @@ header {
 .failure-section {
   display: flex;
   align-items: center;
+  justify-content: center;
+  align-items: center;
   gap: 90px;
-  margin: 150px 200px;
+  margin: 0px 215px;
   gap: 130px;
 }
 
